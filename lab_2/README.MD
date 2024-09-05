@@ -32,3 +32,40 @@ b. Después de que hayan terminado el tutorial, describir la función de algunos
 | \.com | Busca el match con ".com" usando la barra para excluir el "." como metacaracter | `cualquiercosa.com`
 | complete\|GET | Realiza la or entre las dos cadenas | `complete` o `GET`
 | 0{4} | Coincide con exactamente cuatro 0's. | `0000`
+
+## Paso 3: Verificar sus respuestas en la VM.
+
+<p align="center">
+  <img src="./img/83.png"><br>
+  <em>Fig. ^83 </em><br>
+</p>
+
+<p align="center">
+  <img src="./img/a-z24.png"><br>
+  <em>Fig. [A-Z]{2,4} </em><br>
+</p>
+
+<p align="center">
+  <img src="./img/2015.png"><br>
+  <em>Fig. 2015 </em><br>
+</p>
+
+<p align="center">
+  <img src="./img/horario.png"><br>
+  <em>Fig. 05:22:2[0-9] </em><br>
+</p>
+
+<p align="center">
+  <img src="./img/com.png"><br>
+  <em>Fig. \.com </em><br>
+</p>
+
+<p align="center">
+  <img src="./img/or.png"><br>
+  <em>Fig. complete|GET </em><br>
+</p>
+
+<p align="center">
+  <img src="./img/ceros.png"><br>
+  <em>Fig. 0{4} </em><br>
+</p>
