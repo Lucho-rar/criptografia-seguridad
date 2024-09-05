@@ -73,3 +73,31 @@ Mar 22 06:01:40 secOps kernel: [0.000000] x86/fpu: Using 'eager' FPU context swi
 ```
 
 Podemos observar que el dia `Mar 20 14:29` aprox. la interfaz enp0s3 perdia la conexion y la recuperaba varias veces en intervalos cortos. 
+
+## Parte 2: Ubicar archivos de registro en sistemas desconocidos
+
+Inicio de nginx con `sudo nginx -c custom_server.conf`
+
+<p align="center">
+  <img src="./img/inicio_nginx.png"><br>
+  <em>Fig. Inicio de nginx en la VM</em><br>
+</p>
+
+
+Análisis en /etc `ls /etc/`
+<p align="center">
+  <img src="./img/nginx_etc.png"><br>
+  <em>Fig. ls /etc. </em><br>
+</p>
+
+<p align="center">
+  <img src="./img/nginx_etc_2.png"><br>
+  <em>Fig. ls -l /etc/nginx/ </em><br>
+</p>
+
+
+<p align="center">
+  <img src="./img/nginx_cat_conf.png"><br>
+  <em>Fig. cat /etc/nginx/nginx.conf </em><br>
+</p>
+
