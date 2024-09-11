@@ -77,5 +77,10 @@ Luego se configura el cliente agregando el certificado.
   <img src="./img/certificado2.png"><br>
   <em>Fig. Agrega certificado</em>
 </p>
+
 Luego ya podemos enviar un correo firmandolo 
 
+<p align="center">
+  <img src="./img/firmado.jpeg"><br>
+  <em>Fig. Agrega certificado</em>
+</p>
